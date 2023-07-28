@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.artesiangroup.co.uk/developing-people by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2023 19:33:58 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artesian</title>
+  	     
+    <link href="css/flexy-menu.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/survey.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="../maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-55970166-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+    <script type="text/javascript">
+ 
+	$(document).ready(function(){
+	 
+		$('#page_effect').fadeIn(2000);
+	 
+	});
+	
+	$(function(){
+		$('.water').animate({
+			height: '100%'
+		}, 2000)
+	})
+	 
+	</script>
+	<script type="text/javascript">
+	 
+	$(document).ready(function(){
+	 
+		$('#page_effect').fadeIn(2000);
+	 
+	});
+	window.onload = function() {
+	//  $('#tom').fadeTo('slow', 0).delay(2000);
+	  $("#tom").delay(2000).fadeTo("slow", 0);
+	};
+	
+	</script>
+ 
+		
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/flexy-menu.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".panel a").click(function(e){
+					e.preventDefault();
+					var style = $(this).attr("class");
+					var menustyle = $(".flexy-menu").attr("class");
+					if(menustyle.indexOf("light") > -1){
+						$(".flexy-menu").removeAttr("class").addClass("flexy-menu light").addClass(style);
+					}
+					else{
+						$(".flexy-menu").removeAttr("class").addClass("flexy-menu").addClass(style);
+					}
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){  
+				$(".flexy-menu").flexymenu({
+					speed: 400,
+					type: "horizontal",
+					align: "left",
+					indicator: true
+				});
+			});
+		</script>
+        
+         <script type="text/javascript">    
+ 
+ $(document).ready(function() {
+
+  // hides the slickbox as soon as the DOM is ready
+   $('.circle2slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick-show').click(function() {
+     $('.circle2slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick-hide').click(function() {
+     $('#slickbox').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick-toggle').click(function() {
+   
+     $('.circle2slide').toggle(800);
+	 $('.circle6slide').slideUp('fast');
+	 $('.circle4slide').slideUp('fast');
+	 $('.circle3slide').slideUp('fast');
+	 $('.circle5slide').slideUp('fast');
+	 $('.circle1slide').slideUp('fast');
+     return false;
+   });
+   
+   
+   // hides the slickbox as soon as the DOM is ready
+   $('.circle1slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick2-show').click(function() {
+   
+     $('.circle2slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick2-hide').click(function() {
+   
+     $('#slickbox2').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick2-toggle').click(function() {
+   
+     $('.circle1slide').toggle(800);
+	 $('.circle6slide').slideUp('fast');
+	 $('.circle4slide').slideUp('fast');
+	 $('.circle3slide').slideUp('fast');
+	 $('.circle2slide').slideUp('fast');
+	 $('.circle5slide').slideUp('fast');
+     return false;
+   });
+   
+   
+   
+     // hides the slickbox as soon as the DOM is ready
+   $('.circle3slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick3-show').click(function() {
+   
+     $('.circle3slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick3-hide').click(function() {
+     $('#slickbox3').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick3-toggle').click(function() {
+   
+     $('.circle3slide').toggle(800);
+	 $('.circle6slide').slideUp('fast');
+	 $('.circle4slide').slideUp('fast');
+	 $('.circle5slide').slideUp('fast');
+	 $('.circle2slide').slideUp('fast');
+	 $('.circle1slide').slideUp('fast');
+     return false;
+   });
+   
+   
+   
+   
+      // hides the slickbox as soon as the DOM is ready
+   $('.circle6slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick6-show').click(function() {
+   
+     $('.circle6slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick6-hide').click(function() {
+     $('#slickbox6').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick6-toggle').click(function() {
+   
+     $('.circle6slide').toggle(800);
+	 $('.circle5slide').slideUp('fast');
+	 $('.circle4slide').slideUp('fast');
+	 $('.circle3slide').slideUp('fast');
+	 $('.circle2slide').slideUp('fast');
+	 $('.circle1slide').slideUp('fast');
+     return false;
+   });
+   
+   
+   
+         // hides the slickbox as soon as the DOM is ready
+   $('.circle4slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick4-show').click(function() {
+   
+     $('.circle4slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick4-hide').click(function() {
+     $('#slickbox4').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick4-toggle').click(function() {
+   
+     $('.circle4slide').toggle(800);
+	 $('.circle6slide').slideUp('fast');
+	 $('.circle5slide').slideUp('fast');
+	 $('.circle3slide').slideUp('fast');
+	 $('.circle2slide').slideUp('fast');
+	 $('.circle1slide').slideUp('fast');
+     return false;
+   });
+   
+   
+   
+         // hides the slickbox as soon as the DOM is ready
+   $('.circle5slide').hide();
+  // shows the slickbox on clicking the noted link  
+   $('#slick5-show').click(function() {
+   
+     $('.circle5slide').slideDown('slow');
+     return false;
+   });
+
+  // hides the slickbox on clicking the noted link  
+   $('#slick5-hide').click(function() {
+     $('#slickbox5').slideUp('fast');
+     return false;
+     }); 
+
+  // toggles the slickbox on clicking the noted link  
+   $('#slick5-toggle').click(function() {
+   
+     $('.circle5slide').toggle(800);
+	 $('.circle6slide').slideUp('fast');
+	 $('.circle4slide').slideUp('fast');
+	 $('.circle3slide').slideUp('fast');
+	 $('.circle2slide').slideUp('fast');
+	 $('.circle1slide').slideUp('fast');
+     return false;
+   });
+
+   
+ });
+                             
+ </script>
+ 
+ <script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "img/circle2.png";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "img/circle2hover.png";
+    }
+	
+	  function MouseRollover2(MyImage) {
+        MyImage.src = "img/circle1.png";
+    }
+        function MouseOut2(MyImage) {
+        MyImage.src = "img/circle1hover.png";
+    }
+	
+	 function MouseRollover3(MyImage) {
+        MyImage.src = "img/circle3.png";
+    }
+        function MouseOut3(MyImage) {
+        MyImage.src = "img/circle3hover.png";
+    }
+	
+	function MouseRollover6(MyImage) {
+        MyImage.src = "img/circle6.png";
+    }
+        function MouseOut6(MyImage) {
+        MyImage.src = "img/circle6hover.png";
+    }
+	
+	function MouseRollover4(MyImage) {
+        MyImage.src = "img/circle4.png";
+    }
+        function MouseOut4(MyImage) {
+        MyImage.src = "img/circle4hover.png";
+    }
+	
+	function MouseRollover5(MyImage) {
+        MyImage.src = "img/circle5.png";
+    }
+        function MouseOut5(MyImage) {
+        MyImage.src = "img/circle5hover.png";
+    }
+	
+     function closeBoxes() {
+	 	 $('.circle6slide').slideUp('fast');
+		 $('.circle5slide').slideUp('fast');
+		 $('.circle4slide').slideUp('fast');
+		 $('.circle3slide').slideUp('fast');
+		 $('.circle2slide').slideUp('fast');
+		 $('.circle1slide').slideUp('fast');
+	 }
+	 
+	var timeout = ''; 
+	var myFuncCalls = 0;
+	 function slideSwitch() {
+	 
+	 	myFuncCalls++;
+ 
+	    var $active = $('#slideshow IMG.active');
+		
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+		
+		clearTimeout(timeout);
+		if(myFuncCalls==1) {
+   		 timeout = setTimeout( "slideSwitch()", 6000 );
+		 }
+		 
+		 if(myFuncCalls==2) {
+   		 timeout = setTimeout( "slideSwitch()", 111118000 );
+		 }
+		
+
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 1000, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setTimeout( "slideSwitch()", 6000 );
+	});
+	
+	
+</script>
+<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="js/bjqs-1.3.js"></script>
+	 
+</head>
+
+<body onclick="closeBoxes()">
+
+
+
+<div id="page_effect" style="display:none;">
+	<div class="topstrip">
+    		<div class="row">
+      			<div class="large-12 columns"> 
+                	<ul class="flexy-menu">
+                          <li><a class="drop" href="#" >Healthy Leadership</a><ul><li><a href="executive-presence.html">Executive presence</a></li><li><a href="labyrinth.html">Labyrinth</a></li><li><a href="top-team-development.html">Top team development</a></li><li><a href="executive-coaching.html">Executive coaching</a></li><li><a href="creativity.html">Ignite thinking</a></li></ul><li><a class="drop" href="#" >Improving Performance</a><ul><li><a href="leading-organisations.html">Leading organisations</a></li><li><a href="developing-people.html">Developing people</a></li><li><a href="Leading-change.html">Leading change</a></li><li><a href="Sales-organisation-transformation.html">Driving value through people</a></li></ul><li><a class="drop" href="#" >Our Clients</a><ul><li><a href="who-we-work-with.html">Who we work with</a></li><li><a href="bombardier-aerospace.html">Bombardier Aerospace</a></li><li><a href="european-investment-bank.html">European Investment Bank</a></li><li><a href="Winchester-and-Eastleigh-NHS-Trust.html">Winchester and Eastleigh NHS Trust</a></li><li><a href="Major-steel-company.html">Major Steel Company</a></li></ul><li><a  href="course-dates.html" >Courses</a><li><a class="drop" href="#" >About us</a><ul><li><a href="our-team.html">Our team</a></li><li><a href="associates.html">Our associates</a></li><li><a href="name.html">Our name</a></li><li><a href="our-values.html">Our values</a></li></ul><li><a class="drop" href="#" >Contact us</a><ul><li><a href="get-in-touch.html">Get in touch</a></li></ul>                    </ul>
+                     
+                </div>
+            </div>
+    	
+    </div>
+     <div class="row logo">
+      <div class="large-12 columns alligncenter"> 
+        
+        <div class="row" style="margin-bottom:40px;">
+          <div class="large-5 medium-5 columns">
+           
+               <h1 class="smaller">&nbsp;</h1>
+		  </div>
+          <div class="large-7 medium-7 columns">
+            <a href="index-2.html"><img src="img/logo.png" style="margin-left:37px;"/></a>
+            
+          </div>
+        </div>
+        
+        <title>Artesian</title>
+      <div class="row">  
+   	    <div class="large-12 columns alligncenter" style="text-align:center;">   
+        		<div class="row">
+                    <div class="large-6 medium-6 columns imgbottom">
+                    	<img src="img/dp.jpg" alt="" style="float:right;"/>                    </div>
+
+                    <div class="large-6 medium-6 columns blueborder">
+                    	<h1>Good to great</h1>
+                       <p>Leadership is critical to the success of any organisation. Yet one survey found that, while three quarters of CEOs and senior executives cited leadership development as important, only seven per cent thought that their organisation was doing it well.</p>
+<p>We work with Learning and Development heads and others responsible for leadership development, L&amp;D and training, to develop creative, holistic, high-impact and effective programmes.</p>
+<p><a href="mailto:Nick.Chatrath@artesiangroup.co.uk">Contact us</a>&nbsp;to discuss this.</p>
+<p>&nbsp;</p>                                                    
+                    </div>
+
+                   
+				</div>
+                
+         </div>
+                
+                
+		
+   
+           
+            
+       
+       </div>
+       </div>
+       </div>
+       <div class="footer">
+       		<div class="large-12 columns alligncenter" style="text-align:center;">   
+        		<div class="row">
+                	 <ul class="flexy-menu">
+                         <li><a href="healthy-leadership.html" >HEALTHY LEADERSHIP</a>
+                       <li><a href="leading-organisations.html" >IMPROVING PERFORMANCE</a>
+                       <li><a href="who-we-work-with.html" >OUR CLIENTS</a>
+                       <li><a href="course-dates.html" >COURSES</a>
+                  	   <li><a href="our-team.html" >ABOUT US</a>
+                       <li><a href="get-in-touch.html" >CONTACT US</a>
+                    </ul>
+                    <p class="copyright">&copy; 2020 Artesian Transformational Leadership Ltd. All rights reserved. <!-- |  Site design <a href="http://www.fuelbranding.co.uk" target="_blank">Fuel Branding Limited</a>--></p>
+                </div>
+            </div>
+          
+       </div>
+       
+
+<script type="text/javascript">$(document).ready(function()
+{setupRotator();});function setupRotator()
+{if($('.textItem').length>1)
+{$('.textItem:first').addClass('current').fadeIn(1000);setInterval('textRotate()',6000);}}
+function textRotate()
+{var current=$('#quotes > .current');if(current.next().length==0)
+{current.removeClass('current').fadeOut(1000);$('.textItem:first').addClass('current').fadeIn(1000);}
+else
+{current.removeClass('current').fadeOut(1000);current.next().addClass('current').fadeIn(1000);}}</script>
+   </body>
+
+<!-- Mirrored from www.artesiangroup.co.uk/developing-people by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jul 2023 19:33:58 GMT -->
+</html>
